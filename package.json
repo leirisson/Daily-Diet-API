@@ -1,0 +1,25 @@
+{
+  "name": "daily-diet-api",
+  "version": "1.0.0",
+  "description": "Desafio referente ao módulo: Criando APIs RESTfull com Node.js",
+  "homepage": "https://github.com/leirisson/Daily-Diet-API#readme",
+  "bugs": {
+    "url": "https://github.com/leirisson/Daily-Diet-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leirisson/Daily-Diet-API.git"
+  },
+  "license": "ISC",
+  "author": "Leirisson souza dos santos",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "knex": "^3.1.0",
+    "sqlite3": "^5.1.7"
+  }
+}
