@@ -1,11 +1,7 @@
 import fastify from 'fastify'
-import { knex } from './database'
+import { dailyDietRoutes } from './routes/diet'
 
 export const app = fastify()
 
+app.register(dailyDietRoutes)
 
-app.get('/', async () => {
-
-    const table = await knex('sqlite_schema').select()
-    return table
-})
